@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            background-color: red;
+        }
+        .child1{
+            width: 100%;
+            height: 25%;
+            background-color: blue;
+        }
+        .child2{
+            width: 100%;
+            height: 50%;
+            background-color: black;
+            display:flex;
+        }
+        .subchild1{
+            width: 25%;
+            height: 100%;
+            background-color: blueviolet;
+        }
+        .subchild2{
+            width: 50%;
+            height: 100%;
+            background-color: darkblue;
+        }
+        .subchild3{
+            width: 25%;
+            height: 100%;
+            background-color: darkgreen;
+        }
+        .child3{
+            width: 100%;
+            height: 25%;
+            background-color: brown;
+            display: flex;
+        }
+        .subchild4{
+            width: 50%;
+            height: 100%;
+            background-color: aqua;
+        }
+        .subchild5{
+            width: 50%;
+            height: 100%;
+            background-color: aquamarine;
+        }
+    </style>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1"></div>
+        <div class="child2">
+            <div class="subchild1"></div>
+            <div class="subchild2"></div>
+            <div class="subchild3"></div>
+        </div>
+        <div class="child3">
+            <div class="subchild4"></div>
+            <div class="subchild5"></div>
+        </div>
+</body>
+</html>

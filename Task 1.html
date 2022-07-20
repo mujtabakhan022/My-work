@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            background-color: white;
+            display: flex;
+        }
+        .child1{
+            width: 15%;
+            height: 100%;
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        .child2{
+            width: 85%;
+            height: 100%;
+            background-color: white;
+            padding: 10px;
+        }
+        .subchild1{
+            width: 100%;
+            height: 5%;
+            justify-content: space-between;
+            display: flex;
+        }
+        .subchild2{
+            width: 100%;
+            height: 40%;
+            display: flex;
+            padding: 20px;
+            justify-content: space-around;
+        }
+        .a1{
+            width: 30%;
+            height: 80%;
+            background-color: blue;
+        }
+        .top{
+            justify-content: start;
+            margin-left: 20px;
+        }
+        .bottom{
+            margin-right: 20px;
+            text-align: end;
+        }
+        .a2{
+            width: 30%;
+            height: 80%;
+            background-color: green;
+        }
+        .a3{
+            width: 30%;
+            height: 80%;
+            background-color: red;
+        }
+        .subchild3{
+            width: 100%;
+            height: 50%;
+            display: flex;
+            padding: 30px;
+            justify-content: space-around;
+        }
+        .s1{
+            width: 40%;
+            height: 100%;
+            background-color: rgb(155, 153, 153);
+            border: solid;
+        }
+        .b1{
+            width: 100%;
+            height: 10%;
+            margin-left: 30px   ;
+        }
+        .b2{
+            width: 100%;
+            height: 90%;
+        }
+        img{
+            width: 100%;
+            height: 90%;
+        }
+        .s2{
+            width: 40%;
+            height: 85%;
+            background-color: rgb(172, 169, 169);
+            border: solid;
+        }
+        .c1{
+            width: 100%;
+            height: 10%;
+            margin-left: 30px;
+        }
+        .c2{
+            width: 100%;
+            height: 82%;
+            background-color: white;
+            display: flex;
+            justify-content: space-around;
+        }
+        .comment1{
+            width: 50%;
+            height: 100%;
+            padding: 20px;
+        }
+        .comment2{
+            width: 50%;
+            height: 100%;
+            padding: 20px;
+            text-align: end;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">
+            <h3>Spur</h3>
+            <h4>Dashboard</h4>
+            <h4>Charts</h4>
+            <h4>Components</h4>
+            <h4>Layouts</h4>
+            <h4>About</h4>
+        </div>
+        <div class="child2">
+            <div class="subchild1">
+                <input type="search" placeholder="type to search">
+                <button>signout</button>
+            </div>
+            <div class="subchild2">
+                <div class="a1">
+                    <div class="top"><h1>Sign ups</h1></div>
+                    <div class="bottom"><h1>114</h1><h3>+25% from last month</h3></div>
+                </div>
+                <div class="a2">
+                    <div class="top"><h1>Revenue</h1></div>
+                    <div class="bottom"><h1>$25.541</h1><h3>+17.5% from last month</h3></div>
+                </div>
+                <div class="a3">
+                    <div class="top"><h1>Open tickets</h1></div>
+                    <div class="bottom"><h1>5</h1></div>
+                </div>
+            </div>
+            <div class="subchild3">
+                <div class="s1">
+                    <div class="b1"><h3>Bar Chart</h3></div>
+                    <div class="b2"><img src="Bar chart.png"></div>
+                </div>
+                <div class="s2">
+                    <div class="c1"><h3>Notifications</h3></div>
+                    <div class="c2">
+                        <div class="comment1">
+                            <h5>New comment</h5>
+                            <h5>New comment</h5>
+                            <h5>New comment</h5>
+                            <h5><ins>Show all</ins></h5>
+                        </div>
+                        <div class="comment2">
+                            <h5>21 days ago</h5>
+                            <h5>21 days ago</h5>
+                            <h5>21 days ago</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
